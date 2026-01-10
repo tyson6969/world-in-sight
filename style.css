@@ -1,0 +1,54 @@
+body {
+    font-family: sans - serif;
+    color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border - box;
+ }
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #2d2733;
+
+}
+::-webkit-scrollbar-thumb {
+    background: #555;
+
+}
+::-webkit-scrollbar-thumb:hover {
+    background:#dcbfff;
+
+}
+.world-map{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: max-content;
+    height: max-content;
+    min-height: 30 em;
+    background-color: #151218;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+svg {
+   width: 100vw;
+    height: 100vh;
+
+}
+/* hovering part */
+path {
+    fill: #443d4b;
+    stroke: #dcbfff;
+    transition: 100ms;
+}
+path:hover { 
+    fill: #c99aff;
+}
+.side-panel {}
