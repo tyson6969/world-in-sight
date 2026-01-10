@@ -51,4 +51,8 @@ path {
 path:hover { 
     fill: #c99aff;
 }
-.side-panel {}
+.side-panel {
+
+    position: fixed;
+    background-color:#1d1a20;
+}
